@@ -7,91 +7,50 @@
     <script src="date.js"></script>
     <script src="echarts.min.js"></script>
     <link rel="stylesheet" href="assets/css.css">
+
 </head>
 <body>
     <h1 class="xuelun-title">电子商务指挥间</h1>
+    <ul class="title-box1">
+        <li>
+            <h4 class="title-bg"></h4>
+            <div class="center-bg">
+                <h3>5371</h3>
+                监管商户（家）
+            </div>
+            <h4 class="end-bg"></h4>
+        </li>
+        <li>
+            <h4 class="title-bg"></h4>
+            <div class="center-bg">
+                <h3>6200</h3>
+                监测设备（台）
+            </div>
+            <h4 class="end-bg"></h4>
+        </li>
+        <li>
+            <h4 class="title-bg"></h4>
+            <div class="center-bg">
+                <h3>27</h3>
+                供应站数量（家）
+            </div>
+            <h4 class="end-bg"></h4>
+        </li>
+        <li>
+            <h4 class="title-bg"></h4>
+            <div class="center-bg">
+                <h3>27001</h3>
+                气瓶数量（个）
+            </div>
+            <h4 class="end-bg"></h4>
+        </li>
+    </ul>
     <div id="mineBox1" style=""></div>
 	<div id="mineBox2" style=""></div>
+    <div id="mineBox3" style=""></div>
 </body>
 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-<script type="text/javascript">
-
-    // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('mineBox1'));
-    // 指定图表的配置项和数据
-    var option = {
-        title: {
-            show: false,
-            text: 'ECharts 入门示例'
-        },
-        tooltip: {},
-        legend: {
-            data:['销量'],
-            textStyle:{
-                fontSize: 16,
-                color: '#fff'
-            },
-            left:'78%'
-        },
-        xAxis: {
-            data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"],
-            axisLabel: {
-                textStyle: {
-                    color: 'rgba(255, 255, 255,1)', //刻度颜色
-                    fontSize: 14  //刻度大小
-                }
-            }
-        },
-        yAxis: {
-            axisLabel: {
-                textStyle: {
-                    color: 'rgba(255, 255, 255,1)', //刻度颜色
-                    fontSize: 14  //刻度大小
-                }
-            }
-        },
-        series: [{
-            name: '销量',
-            type: 'bar',
-            data: [5, 20, 36, 10, 10, 20]
-        }]
-    };
-    myChart.setOption(option);
-</script>
-<script>
-		var myCharts2 = echarts.init(document.getElementById("mineBox2"));
-					var option1={
-				title:{
-					show:false,
-					text:'数据统计 饼状图'
-				},
-				tooltip:{
-        		trigger: 'item',
-        		formatter: "{a} <br/>{b} : {c} ({d}%)"
-    			},
-    			legend: {
-        		// orient: 'vertical',
-        		// top: 'middle',
-        		bottom: 10,
-        		left: 'center',
-        		data: ['购物', '门店支付','转账','其他'],
-				textStyle:{
-				color: '#fff'
-				}
-    			},
-				series:[{
-					name:"测试",
-					type:'pie',
-					radius:'60%',
-					center: ['50%', '50%'],
-					data:[
-					{name:"购物",value:300},
-					{name:"门店支付",value:100},
-					{name:"转账",value:400},
-					{name:"其他",value:60}
-					]
-				}]
-			};
-        myCharts2.setOption(option1);
-</script>
+<script src="module/circle.js"></script>
+<script src="module/line.js"></script>
+<script src="module/lineGradient.js"></script>
 </html>
