@@ -13,6 +13,14 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 }
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .clearfix{*+height:1%;}
+#mineBox{
+    position: absolute;
+    top:3.5rem;
+    left:3%;
+    width:25%;height:30%;
+    bottom:0;
+    right: 0;
+}
 #mineBox1{
 
     height:30%;
