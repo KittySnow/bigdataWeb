@@ -1,0 +1,28 @@
+*{padding: 0;margin: 0}
+html,body{height: 100%;overflow: hidden}
+body{background-image:url(../images/bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%; }
+.xuelun-title{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:10%;
+    right: 0;
+    left:0;
+    text-align: center;
+    background-image:url(../images/title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+#mineBox1{
+
+    height:30%;
+
+}
+#mineBox2{
+
+  height:30%;
+}
+#mineBox3{
+
+    height:30%;
+}
