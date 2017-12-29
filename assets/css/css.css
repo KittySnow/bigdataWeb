@@ -41,8 +41,7 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-box3-title{height: .8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box3_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
 .dp-box3-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;}
 
-#mineBox{width:50%;height:30%;float:left;}
-#mineBoxed{width:50%;height:30%;float:left;}
+
 #mineBox1{height:30%;}
 #mineBox2{height:30%;}
 #mineBox3{height:30%;}
