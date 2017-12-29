@@ -5,7 +5,7 @@ var option = {
     title: {
         text: '各区域属地巡查询进度',
         textStyle: {//主标题文本样式{"fontSize": 18,"fontWeight": "bolder","color": "#333"}
-            fontSize: 16,
+            fontSize: 14,
             fontStyle: 'normal',
             fontWeight: 'normal',
             color:"#5adbff"
@@ -15,11 +15,11 @@ var option = {
     legend: {
         data:['已查询','待查询'],
         textStyle:{
-            fontSize: 14,
+            fontSize: 12,
             paddingTop:12,
             color: '#59d9fc'
         },
-        left:'60%',
+        left:'58%',
         top:2
     },
     grid:{
