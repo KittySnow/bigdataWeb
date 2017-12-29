@@ -18,8 +18,8 @@ var option2 = {
     series: [{
             name:'访问来源',
             type:'pie',
-            radius: ['30%', '60%'],
-            center: ['54%', '50%'],
+            radius: ['30%', '55%'],
+            center: ['60%', '50%'],
             zlevel:20,
             avoidLabelOverlap: false,
             data:[
@@ -34,6 +34,7 @@ var option2 = {
 	}]
 };
 myCharts1.setOption(option2);
+window.onresize = myCharts1.resize;
 var myCharts5 = echarts.init(document.getElementById("mineBoxed"));
 var option4 = {
     tooltip: {
@@ -54,7 +55,7 @@ var option4 = {
     series: [{
             name:'访问来源',
             type:'pie',
-            radius: ['30%', '60%'],
+            radius: ['30%', '55%'],
             center: ['39%', '50%'],
             data:[
                 {value:740, name:'人为拔电'},
@@ -70,6 +71,5 @@ var option4 = {
 	}]
 };
 myCharts5.setOption(option4);
-
-
+window.onresize = myCharts5.resize;
 

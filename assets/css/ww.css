@@ -1,7 +1,6 @@
-.dp-box3 .bottomL{height:60%;width:100%;position:relative;}
-.dp-box3 .bottomL1{height:100%;width:100%;position:absolute;top:0px;}
-#mineBox{width:50%;height:100%;float:left;}
-#mineBoxed{width:50%;height:100%;float:left;}
+.setSa{height:68%;position:relative;}
+#mineBox{width:50%;height:100%;float:left;margin-top:-1rem;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 80% 50% !important;}
+#mineBoxed{width:50%;height:100%;float:left;margin-top:-1rem;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 20% 50% !important;}
 
 
 .luned{font-size:0;list-style: none;height:90%;}
@@ -12,8 +11,6 @@
 #mineBox6{width:50%;height:100%;float:left;}
 #mineBoxed6{width:50%;height:100%;float:left;}
 .luned{height: 80%;width:100%;position: relative;top: 15%;}
-/*#mineBox2{width:50%;height:90%;float:left;}
-#mineBoxed2{width:50%;height:90%;float:left;}*/
 .fonts{font-size: 0.14rem;letter-spacing: 0;width:100%;height:0.3rem;line-height:0.3rem;position: relative;top:90%;z-index:999;}
 .fonts p{width:50%;position:absolute;}
 .fonts p:nth-child(1){left:20%;}
@@ -60,60 +57,73 @@
 /*new*/
 
 .left-dispose{
+		margin-top:0.1rem;
 		width: 100%;
-		height: 40%;
+		height: 31%;
 		font-size:0.12rem;
 		background:url(../images/yujingbg.png) no-repeat;
+		background-size: 100% 100%;
 	}
 	.width33,.width50{
 		width: 32%;
-		height: 0.91rem;
+		height: 50%;
 		display: inline-block;
 	}
 	.width33-title{
-		height: 0.2rem;
-		line-height: 0.2rem;
+		height: 0.4rem;
+		line-height: 0.4rem;
 		background:url(../images/Rectangle.png) no-repeat center center;
 		text-align: center;
 		color: #57D5F9;
 	}
 	.icon0{
-		width: 0.4rem;
-		height: 0.4rem;
+		width: 0.8rem;
+		height: 0.8rem;
 		display: inline-block;
-		margin: 0.15rem 0.1rem 0 0.3rem;
+		margin: 0.15rem 0.1rem 0 0.4rem;
+
 	}
 	.icon0-1{
 		background:url(../images/yujing.png) no-repeat center center;
+		background-size:100% 100%;
+		
 	}
 	.icon0-2{
 		background:url(../images/lixian.png) no-repeat center center;
+		background-size:100% 100%;
 	}
 	.icon0-3{
 		background:url(../images/weixiu.png) no-repeat center center;
+				background-size:100% 100%;
 	}
 	.icon0-4{
 		background:url(../images/message.png) no-repeat center center;
+				background-size:100% 100%;
 	}
 	.icon0-5{
 		background:url(../images/phone.png) no-repeat center center;
+				background-size:100% 100%;
 	}
 	.nub0{
-		font-size: 0.4rem;
+		font-size: 0.7rem;
 		font-weight: 600;
 		color: #fff;
 		display: inline-block;
 		position: relative;
-		top: -0.05rem;
+		top: -0.1rem;
+		left:0.5rem;
 	}
 	.ci{
 		color: #57D5F9;
 		display: inline-block;
 		position: relative;
 		top: -0.05rem;
-		left: -0.1rem;
+		left: 0.6rem;
 	}
 	.blank0{
 		width: 16%;
 		display: inline-block;
 	}
+	.wzFonts{position:absolute;width:6%;height:0.7rem;font-size:0.3rem;letter-spacing: break;color:#5ADBFF;left:27.4%;top:28.5%;}
+	.wzFonts1{position:absolute;width:6%;height:0.7rem;font-size:0.3rem;letter-spacing: break;color:#5ADBFF;left:67%;top:28.5%;}
+	

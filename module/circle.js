@@ -38,6 +38,7 @@ var optioned = {
     ]
 };
 myCharts2.setOption(optioned);
+window.onresize = myCharts2.resize;
 
 /*ed2*/
 var myCharts7 = echarts.init(document.getElementById("mineBoxed2"));
@@ -107,4 +108,4 @@ var option5 = {
 	}]
 };
 myCharts7.setOption(option5);
-
+window.onresize = myCharts7.resize;

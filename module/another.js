@@ -25,7 +25,10 @@
 		        orient: 'vertical',
 		        bottom: 10,
 		        left: 'center',
-		        data:legendValue
+		        data:legendValue,
+		                textStyle:{
+            			color: '#396EFF'
+        				},
 		        
 		    },
 		    series: [
@@ -33,6 +36,7 @@
 		            name:'访问来源',
 		            type:'pie',
 		            radius: ['40%', '55%'],
+		            center:['50%','34%'],
 			         avoidLabelOverlap: false,
 			            label: {
 			                normal: {
@@ -60,6 +64,8 @@
 		            type:'pie',
 		            selectedMode: 'single',
 		            radius: [0, '30%'],
+		               center:['50%','34%'],
+		           
 		            label: {
 		                normal: {
 		                	show: false,
@@ -93,3 +99,5 @@
 		        seriesIndex: 0,
 		        dataIndex: 0
 		    });
+		    window.onresize = myChart.resize;
+		    window.onresize = myChart1.resize;
