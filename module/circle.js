@@ -89,16 +89,6 @@ var option5 = {
         formatter: "{a} <br/>{b}: {c} ({d}%)"
 
     },
-/*       legend: {
-        orient: 'vertical',
-        top:'center',
-        right:'right',
-        data: ['人为拔电','停电','SIM卡欠费','设备故障','其他'],
-        textStyle:{
-            color: '#5ADBFF'
-        },
-        itemGap:24
-    },*/
     series: [{
             name:'访问来源',
             type:'pie',

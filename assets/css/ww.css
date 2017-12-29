@@ -6,7 +6,8 @@
 
 .luned{font-size:0;list-style: none;height:90%;}
 .luned li{font-size:0;display:inline-block;width:50%;height:100%;}
-#mineBox2,#mineBoxed2{height:90%;width: 96%;margin: 0 auto;}
+.all-list{width:100%;height:95%;position:relative;border:1px solid red;}
+#mineBox2,#mineBoxed2{height:90%;width: 96%;margin: 0 auto;position:absolute;}
 .luned li p{color: #5ADBFF;height:0.3rem;line-height:0.3rem;font-size:.28rem;text-align: center;}
 
 #mineBox6{width:50%;height:100%;float:left;}
