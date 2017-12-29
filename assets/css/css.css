@@ -1,4 +1,5 @@
 *{padding: 0;margin: 0}
+ul,li{list-style: none}
 html,body{height: 100%;overflow: hidden}
 body{background-image:url(../images/bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
 .xuelun-title{position: absolute;top:0;width:100%;height:10%;right: 0;left:0;text-align: center;background-image:url(../images/title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
@@ -8,19 +9,33 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-wrapper-right{float: left;width: 32%;margin-left: 1.5%;height: 100%;background: green;}
 .dp-wrapper-middle{float: left;width: 32%;height: 100%;background: yellow;}
 .dp-box1{font-size:0;margin-bottom: .5rem;}
-.dp-box1 li{display: inline-block;font-size:.28rem;color:#fff;width: 23.5%;margin-right:2%;}
+.dp-box1 li{display: inline-block;font-size:.28rem;color:#d1f5ff;width: 23.5%;margin-right:2%;}
 .dp-box1 li:nth-child(4n+4){width: 23.5%;margin-right:0;}
 .dp-box1 .title-bg{vertical-align: bottom;background-image:url(../images/tp_box1_header.png);background-repeat:repeat;background-size:100% 100%;background-position:50% 50%;height: .26rem}
 .dp-box1 .end-bg{position: relative;background-image:url(../images/tp_box1_bottom.png);background-repeat:repeat;background-size:100% 100%;background-position:50% 50%;height: .18rem}
 .dp-box1 .center-bg{position: relative;background-image:url(../images/tp_box1_bg.png);background-repeat:repeat-y;background-size:100% 100%;background-position:50% 50%;}
-.dp-box1 .center-bg h3{font-size: .72rem;text-align: center;color: #fff;font-family: Arail;text-align:center;color:#fff;padding-top: .23rem;margin-bottom:.2rem}
+.dp-box1 .center-bg h3{font-size: .72rem;text-align: center;color: #d1f5ff;font-family: Arail;text-align:center;color:#d1f5ff;padding-top: .23rem;margin-bottom:.2rem}
 .dp-box1 .center-bg p{font-size:.34rem;text-align:center;color:#5adbff;letter-spacing:-2px;padding-bottom: .28rem;}
 .dp-box2{margin-bottom: .56rem;}
 .dp-box2-title{height: .8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box2_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
 .dp-box2-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;}
 .dp-box2-table{height: 1.34rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;margin-top: .2rem}
-.dp-box2-table td{width: 25%;font-size:.34rem;text-align:center;color:#5adbff;margin-top: .2rem;}
-.dp-box2-table-end{height: 1.34rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
+.dp-box2-table td{font-size:.34rem;text-align:center;color:#5adbff;margin-top: .2rem;}
+.dp-box2-table-end{height:.11rem;width: 100%;background-image:url(../images/tp_box2_end_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
+.dp-box2-ul{padding-top:.1rem;height: 3.2rem;overflow: hidden;background-image:url(../images/tp_box2_border_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;
+}
+.dp-box2-li{font-size:0;height: .8rem;background-image:url(../images/tp_box2_line_bg.png);background-repeat:no-repeat;background-position: 50% bottom;background-size: contain;}
+.dp-box2-li span{font-size:.32rem;display: inline-block;
+    line-height:.8rem;
+    text-align: center;width: 24%;color:#c6e9f5;overflow: hidden;text-overflow: ellipsis}
+.dp-box2-li span:nth-child(4n+4){font-size:.32rem;display: inline-block;
+    text-align: center;width: 28%;color:#c6e9f5;overflow: hidden;text-overflow: ellipsis}
+.dp-box2-line{height: 1px;}
+.dp-box2-li span.danger0{color:#c6e9f5}
+.dp-box2-li span.danger1{color: #ff697b}
+.dp-box2-li span.danger2{color: #ffb700}
+.dp-box2-li span.danger3{color: #4a90e2}
+
 
 .dp-box3{margin-bottom: .6rem;}
 .dp-box3-title{height: .8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box3_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
