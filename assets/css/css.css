@@ -64,8 +64,10 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 }
 .box4-right-box h2{
     font-size: .36rem;
-    color:#5adbff;line-height: .7rem;
+    color:#5adbff;
+    line-height: .7rem;
     text-align: center;
+    margin-top: .1rem;
 }
 .box4-right-box h2 .dp-box4-icon{
     width: .5rem;
@@ -78,13 +80,85 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
     height: 80%;
     text-align: center;
     position:relative;
+    text-indent: -.25rem;
+}
+
+#dpbox4Num.banner-numbox li{
+    display: inline-block;
+    font-size: .88rem;
+    width: .75rem;
+    height: 1.25rem;
+    color: #fff;
+    line-height: 1.25rem;
+    text-align: center;
+    background: rgba(43, 95, 177, 0.32);
+    border-radius: 5px;
+    margin-right: .1rem;
+}
+#dpbox4Num.banner-numbox li:nth-child(2n+2){
+    margin-right: .3rem;
 }
 .box4-right-numbox .point{
     position: absolute;
+    color: #fff;
+    left: 2.25rem;
 }
 .box4-right-numbox .percent{
     position: absolute;
+    right: 0.2rem;
+    font-size: 0.7rem;
+    color: #fff;
+    font-family: cursive;
+    line-height: 1.7rem;
 }
+
+.dp-box4-tips-box{
+    position: absolute;
+    right: 0.2rem;
+    top: 21%;
+}
+.dp-box4-tips-item{
+    width: 3.2rem;
+    height: .8rem;
+    margin-bottom: .2rem;
+}
+.dp-box4-tips-item.danger0 span{color:#c6e9f5;}
+.dp-box4-tips-item.danger1 span{color: #ff697b;display: inline-block;}
+.dp-box4-tips-item.danger2 span{color: #ffb700}
+.dp-box4-tips-item.danger3 span{color: #4a90e2}
+.dp-box4-tips-item span{
+    font-size: .32rem;
+    vertical-align: middle;
+    margin-right: -.1rem;
+}
+.dp-box4-tips-item .numbox{
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.dp-box4-tips-item .numbox li{
+    display: inline-block;
+    font-size: .5rem;
+    height: .72rem;
+    width: .44rem;
+    color: #fff;
+    line-height: .72rem;
+    text-align: center;
+    background:#d1f5ff;
+    border-radius: 5px;
+    margin-right: .04rem;
+}
+.dp-box4-tips-box .danger1 .numbox li{background-color: #ff697b}
+.dp-box4-tips-box .danger2 .numbox li{background-color: #ffb700}
+.dp-box4-tips-box .danger3 .numbox li{background-color: #4a90e2}
+.dp-box4-tips-box .danger0 .numbox li{color: #4a90e2}
+.box4-left-box{
+    position: absolute;
+    right:2%;
+    bottom: 7%;
+
+}
+
 .dp-box5-number{
     position: absolute;
     right:2%;
@@ -123,6 +197,8 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .banner-numbox{
     font-size: 0;
     display: inline;
+    position: relative;
+    text-indent: 0;
 }
 .banner-numbox li{
     display: inline-block;
@@ -195,6 +271,8 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 }
 .dp-box7-items h3{font-size: .36rem;color:#5adbff;line-height: .7rem;text-align: center;padding-bottom: 0.24rem;}
 #dpBox7{height:35%;width: 96%;margin: .2rem auto}
+
+
 
 #mineBox1{height:30%;}
 #mineBox2{height:30%;}

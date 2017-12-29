@@ -132,9 +132,36 @@
                             <li>0</li>
                         </ul>
                     </div>
-                    <div>
-                        <span class="danger1">一级预警</span>
-                        <ul class="banner-numbox" id="dpbox4Num1">
+                </div>
+
+                <div class="dp-box4-tips-box">
+                    <div class="dp-box4-tips-item danger1">
+                        <span>一级预警</span>
+                        <ul class="numbox" id="dpbox4Num1">
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                        </ul>
+                    </div>
+                    <div class="dp-box4-tips-item danger2">
+                        <span>二级预警</span>
+                        <ul class="numbox" id="dpbox4Num2">
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                        </ul>
+                    </div>
+                    <div class="dp-box4-tips-item danger3">
+                        <span>三级预警</span>
+                        <ul class="numbox" id="dpbox4Num3">
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                        </ul>
+                    </div>
+                    <div class="dp-box4-tips-item danger0">
+                        <span>　　离线</span>
+                        <ul class="numbox" id="dpbox4Num4">
                             <li>0</li>
                             <li>0</li>
                             <li>0</li>
@@ -142,8 +169,8 @@
                     </div>
                 </div>
 
-
-
+                <div class="box4-left-box">
+                </div>
             </div>
             <div class="dp-box5">
                 <div class="dp-box5-title">送气量走势图</div>
@@ -182,7 +209,7 @@
                     </li>
                 </ol>
             </div>
-			
+
             <div class="dp-box7-title">
                 <span>监督管理</span>
             </div>
@@ -226,37 +253,6 @@
 <script src="module/lineGradient.js"></script>
 <script type="text/javascript" src="module/because.js" ></script>
 <script type="text/javascript" src="module/another.js" ></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        var options = {
-            useEasing: true,
-            useGrouping: true,
-            separator: '',
-            decimal: '',
-            formattingFn:function(value){
-                value = ""+value;
-                if(value.length<4){
-                    var html = '';
-                    for(var i=0;i<4-value.length;i++){
-                        html+= '0'
-                    }
-                    html += value;
-                    console.log(html);
-                    return  html;
-                }else{
-                    return value;
-                }
-            }
-        };
-
-        demo5 = new CountUp('dpbox5Num', 0, 1793, 0, 1, options);
-        demo6 = new CountUp('dpbox6Num', 0, 1033, 0, 1, options);
-        setTimeout(function(){
-            demo5.start();
-            demo6.start();
-        },500)
-
-    });
-</script>
+<script type="text/javascript" src="number.js" ></script>
 
 </html>
