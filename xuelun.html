@@ -8,10 +8,10 @@
     <script src="echarts.min.js"></script>
     <link rel="stylesheet" href="assets/css/css.css">
     <link rel="stylesheet" href="assets/css/feifei.css">
-    <link rel="stylesheet" href="assets/css/ww.css" />
     <style>
     </style>
     <script src="jquery-1.8.3.min.js"></script>
+    <script src="module/countUp.js"></script>
 </head>
 <body>
     <h1 class="xuelun-title"></h1>
@@ -69,31 +69,31 @@
                     <span>郭丹小吃店</span>
                     <span>2.100.8.102</span>
                     <span class="danger1">一级预警</span>
-                    <span>2017.12.12 12：45</span>
+                    <span>2017.12.12 12:45</span>
                 </li>
                 <li class="dp-box2-li">
                     <span>郭丹小吃店</span>
                     <span>2.100.8.102</span>
                     <span class="danger2">二级预警</span>
-                    <span>2017.12.12 12：45</span>
+                    <span>2017.12.12 12:45</span>
                 </li>
                 <li class="dp-box2-li">
                     <span>郭丹小吃店</span>
                     <span>2.100.8.102</span>
                     <span class="danger3">三级预警</span>
-                    <span>2017.12.12 12：45</span>
+                    <span>2017.12.12 12:45</span>
                 </li>
                 <li class="dp-box2-li">
                     <span>郭丹小吃店</span>
                     <span>2.100.8.102</span>
                     <span class="danger0">离线</span>
-                    <span>2017.12.12 12：45</span>
+                    <span>2017.12.12 12:45</span>
                 </li>
                 <li class="dp-box2-li">
                     <span>郭丹小吃店</span>
                     <span>2.100.8.102</span>
                     <span class="danger0">离线</span>
-                    <span>2017.12.12 12：45</span>
+                    <span>2017.12.12 12:45</span>
                 </li>
                 </ul>
                 <div class="dp-box2-table-end"></div>
@@ -105,16 +105,65 @@
                 </div>
 
             </div>
-
-      	<div id="mineBox"></div>
-      	<div id="mineBoxed"></div>
+           <!-- <div id="mineBox">预警原因</div>-->
         </div>
         <div class="dp-wrapper-middle">
-            <div id="mineBox1" style=""></div>
+            <div class="dp-box4"></div>
+            <div class="dp-box5">
+                <div class="dp-box5-title">送气量走势图</div>
+                <div class="dp-box5-info-title">
+                    <span>本月送气总量(瓶)</span>
+                    <ul class="banner-numbox" id="dpbox5Num">
+                        <li>0</li>
+                        <li>0</li>
+                        <li>0</li>
+                        <li>0</li>
+                    </ul>
+                </div>
+                <div id="mineBox3" style=""></div>
+            </div>
         </div>
         <div class="dp-wrapper-right">
-            <div id="mineBox2" style=""></div>
-            <div id="mineBox3" style=""></div>
+            <div class="dp-box6">
+                <div class="dp-box6-title">气瓶流转</div>
+                <div class="dp-box6-info-title">
+                    <span>今日送气总量(瓶)</span>
+                    <ul class="banner-numbox" id="dpbox6Num">
+                        <li>0</li>
+                        <li>0</li>
+                        <li>0</li>
+                        <li>0</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dp-box7-title">
+                <span>监督管理</span>
+            </div>
+            <div class="dp-box7-wrapper">
+
+                <ul class="">
+                    <li>
+                        <h3>属地查询(次)</h3>
+                        <ul class="banner-numbox" id="dpbox7Num1">
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>行业检查(次)</h3>
+                        <ul class="banner-numbox" id="dpbox7Num2">
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </div>
 
@@ -130,5 +179,37 @@
 <script src="module/line.js"></script>
 <script src="module/lineGradient.js"></script>
 <script type="text/javascript" src="module/because.js" ></script>
-<script src="module/jquery.dataStatistics.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var options = {
+            useEasing: true,
+            useGrouping: true,
+            separator: '',
+            decimal: '',
+            formattingFn:function(value){
+                value = ""+value;
+                if(value.length<4){
+                    var html = '';
+                    for(var i=0;i<4-value.length;i++){
+                        html+= '0'
+                    }
+                    html += value;
+                    console.log(html);
+                    return  html;
+                }else{
+                    return value;
+                }
+            }
+        };
+
+        demo5 = new CountUp('dpbox5Num', 0, 1793, 0, 1, options);
+        demo6 = new CountUp('dpbox6Num', 0, 1033, 0, 1, options);
+        setTimeout(function(){
+            demo5.start();
+            demo6.start();
+        },500)
+
+    });
+</script>
+
 </html>
