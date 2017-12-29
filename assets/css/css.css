@@ -6,9 +6,9 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .dp-wrapper{margin:0 auto;position: absolute;left:3%;right:3%;top:12%;bottom: 2%;}
 .dp-wrapper-left{float: left;width: 32%;margin-right: 1.5%;height: 100%;}
-.dp-wrapper-right{float: left;width: 32%;margin-left: 1.5%;height: 100%;background: green;}
-.dp-wrapper-middle{float: left;width: 32%;height: 100%;background: yellow;}
-.dp-box1{font-size:0;margin-bottom: .5rem;}
+.dp-wrapper-right{float: left;width: 28%;margin-left: 1.5%;height: 100%;}
+.dp-wrapper-middle{float: left;width: 36%;height: 100%;}
+.dp-box1{font-size:0;margin-bottom: .45rem;}
 .dp-box1 li{display: inline-block;font-size:.28rem;color:#d1f5ff;width: 23.5%;margin-right:2%;}
 .dp-box1 li:nth-child(4n+4){width: 23.5%;margin-right:0;}
 .dp-box1 .title-bg{vertical-align: bottom;background-image:url(../images/tp_box1_header.png);background-repeat:repeat;background-size:100% 100%;background-position:50% 50%;height: .26rem}
@@ -19,12 +19,13 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-box2{margin-bottom: .56rem;}
 .dp-box2-title{height: .8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box2_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
 .dp-box2-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;}
-.dp-box2-table{height: 1.34rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;margin-top: .2rem}
+.dp-box2-table{height: 1rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;margin-top: .2rem}
 .dp-box2-table td{font-size:.34rem;text-align:center;color:#5adbff;margin-top: .2rem;}
-.dp-box2-table-end{height:.11rem;width: 100%;background-image:url(../images/tp_box2_end_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
-.dp-box2-ul{padding-top:.1rem;height: 3.2rem;overflow: hidden;background-image:url(../images/tp_box2_border_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;
+.dp-box2-table-end{height: .11rem;width: 100%;background-image:url(../images/tp_box2_end_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position: 50% 0;}
+.dp-box2-ul{padding-top:.1rem;padding-bottom:.1rem;height: 3rem;overflow: hidden;background-image:url(../images/tp_box2_border_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;
 }
-.dp-box2-li{font-size:0;height: .8rem;background-image:url(../images/tp_box2_line_bg.png);background-repeat:no-repeat;background-position: 50% bottom;background-size: contain;}
+.dp-box2-li{font-size:0;height:.75rem;background-image:url(../images/tp_box2_line_bg.png);background-repeat:no-repeat;background-position: 50% bottom;background-size: 80%;}
+.dp-box2-li:nth-child(4n+4){background:transparent;}
 .dp-box2-li span{font-size:.32rem;display: inline-block;
     line-height:.8rem;
     text-align: center;width: 24%;color:#c6e9f5;overflow: hidden;text-overflow: ellipsis}
@@ -37,12 +38,13 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-box2-li span.danger3{color: #4a90e2}
 
 
-.dp-box3{margin-bottom: .6rem;}
+
+
+.dp-box3{margin-bottom: .45rem;}
 .dp-box3-title{height: .8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box3_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
 .dp-box3-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;}
 
-#mineBox{width:50%;height:30%;float:left;}
-#mineBoxed{width:50%;height:30%;float:left;}
+#mineBox{position: absolute;top:3.5rem;left:3%;width:25%;height:30%;bottom:0;right: 0;}
 #mineBox1{height:30%;}
 #mineBox2{height:30%;}
-#mineBox3{height:30%;}
+#mineBox3{width: 100%;height: 100%}
