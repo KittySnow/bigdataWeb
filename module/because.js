@@ -20,6 +20,7 @@ var option2 = {
             type:'pie',
             radius: ['30%', '60%'],
             center: ['54%', '50%'],
+            zlevel:20,
             avoidLabelOverlap: false,
             data:[
                 {value:740, name:'灶具老化'},
@@ -63,10 +64,12 @@ var option4 = {
                 {value:460, name:'其他'}
 
             	],
+            	zlevel:20,
             	color:['#02D5B5','#2895FE','#1142FF','#8A43FF','#6A63F8']
 
 	}]
 };
 myCharts5.setOption(option4);
+
 
 

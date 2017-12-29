@@ -1,2 +1,62 @@
-#mineBox{width:50%;height:30%;float:left;}
-#mineBoxed{width:50%;height:30%;float:left;}
+.dp-box3 .bottomL{height:100%;width:100%;position:relative;}
+.dp-box3 .bottomL1{height:100%;width:100%;position:absolute;top:0px;}
+#mineBox{width:50%;height:100%;float:left;}
+#mineBoxed{width:50%;height:100%;float:left;}
+
+
+.luned{font-size:0;list-style: none;height:90%;}
+.luned li{font-size:0;display:inline-block;width:50%;height:100%;}
+#mineBox2,#mineBoxed2{height:90%;width: 96%;margin: 0 auto;}
+.luned li p{color: #5ADBFF;height:0.3rem;line-height:0.3rem;font-size:.28rem;text-align: center;}
+
+#mineBox6{width:50%;height:100%;float:left;}
+#mineBoxed6{width:50%;height:100%;float:left;}
+.luned{height: 80%;width:100%;position: relative;top: 15%;}
+/*#mineBox2{width:50%;height:90%;float:left;}
+#mineBoxed2{width:50%;height:90%;float:left;}*/
+.fonts{font-size: 0.14rem;letter-spacing: 0;width:100%;height:0.3rem;line-height:0,3rem;position: relative;top:90%;z-index:999;}
+.fonts p{width:50%;position:absolute;}
+.fonts p:nth-child(1){left:20%;}
+.fonts p:nth-child(2){left:70%;}
+	.right-width0{
+		width: 100%;
+		border:1px solid red;
+		font-size: 14px;
+		/*overflow: hidden;*/
+	}
+		#main{
+			width: 45%;
+			height: 300px;
+			display: inline-block;
+			border: 1px solid red;
+		}
+		#main0{
+			width: 45%;
+			height: 300px;
+			display: inline-block;
+			border: 1px solid red;
+		}
+		.blank1{
+			width: 18px;
+			height: 10px;
+			border-radius: 5px;
+			background: #5942FF;
+		}
+		.blank2{
+			width: 18px;
+			height: 10px;
+			border-radius: 5px;
+			background: #F8E71C;
+		}
+		.content0{
+			display: inline-block;
+			width: 20px;
+		}
+		.fontz{
+			font-size: 14px;
+			color: #5942FF;
+		}
+		.fonth{
+			font-size: 14px;
+			color: #F8E71C;
+		}
