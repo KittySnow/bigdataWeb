@@ -18,7 +18,7 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-box2{margin-top: .5rem;}
 .dp-box2-title{height: .8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box2_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
 .dp-box2-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;}
-.dp-box2-table{height: 1.34rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
+.dp-box2-table{height: 1.34rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;margin-top: .2rem}
 .dp-box2-table td{width: 25%;font-size:.34rem;text-align:center;color:#5adbff;margin-top: .2rem;}
 .dp-box2-table-end{height: 1.34rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
 #mineBox{position: absolute;top:3.5rem;left:3%;width:25%;height:30%;bottom:0;right: 0;}
