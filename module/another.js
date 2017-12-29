@@ -17,11 +17,15 @@
 		        trigger: 'item',
 		        formatter: "{b}"
 		    },
+		   grid:{
+		    	top:0,
+			   left:0
+		   },
 		    legend: {
 		        orient: 'vertical',
 		        bottom: 10,
 		        left: 'center',
-		        data:legendValue,
+		        data:legendValue
 		        
 		    },
 		    series: [

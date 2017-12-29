@@ -1,14 +1,13 @@
 var myCharts3 = echarts.init(document.getElementById("mineBox3"));
 var option3={
     title: {
-        show: false,
-        text: 'ECharts 入门示例'
+        show: false
     },
     tooltip: {},
     grid:{
         left:"1%",
         right:"1%",
-        bottom:"1%"
+        bottom:"1%",
     } ,
     xAxis: {
         data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子","衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子","衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子","衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子","衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子","衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"],
@@ -18,7 +17,6 @@ var option3={
                 fontSize: 0  //刻度大小
             }
         },
-        minInterval: 0,
         show:false
 
     },
