@@ -13,6 +13,26 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 }
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
 .clearfix{*+height:1%;}
+
+
+.dp-wrapper{margin:0 auto;
+    position: absolute;
+    left:3%;right:3%;
+    top:12%;bottom: 2%;}
+.dp-wrapper-left{float: left;width: 32%;margin-right: 1.5%;    height: 100%;background: yellowgreen}
+.dp-wrapper-right{float: left;width: 32%;margin-left: 1.5%;    height: 100%;background: green;}
+.dp-wrapper-middle{float: left;width: 32%;height: 100%;background: yellow;}
+.dp-box1{font-size:0;}
+.dp-box1 li{display: inline-block;font-size:.28rem;color:#fff;width: 23.5%;margin-right:2%;}
+.dp-box1 li:nth-child(4n+4){width: 23.5%;margin-right: 0;}
+.title-bg{background-image:url(../images/tp_box1_header.png);background-repeat:repeat;background-size:100% 100%;background-position:50% 50%;height: .26rem}
+.end-bg{background-image:url(../images/tp_box1_bottom.png);background-repeat:repeat;background-size:100% 100%;background-position:50% 50%;height: .18rem}
+.center-bg{background-image:url(../images/tp_box1_bg.png);background-repeat:repeat-y;background-size:100% 100%;background-position:50% 50%;}
+.center-bg h3{font-size:.5rem;text-align:center;color:#fff;padding-top: .15rem;margin-bottom: .31rem}
+.center-bg p{font-size:.28rem;text-align:center;color:#5adbff}
+
+
+
 #mineBox{
     position: absolute;
     top:3.5rem;
