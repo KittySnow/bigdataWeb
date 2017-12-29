@@ -6,9 +6,7 @@
 
 .luned{font-size:0;list-style: none;height:90%;}
 .luned li{font-size:0;display:inline-block;width:50%;height:100%;}
-#mineBox2,#mineBoxed2{height:90%;width: 96%;margin: 0 auto;
-background-image:url(../images/dp_box6_round_bg.png);background-repeat:no-repeat;background-size:cover;background-position:50% 50%;
-}
+#mineBox2,#mineBoxed2{height:90%;width: 96%;margin: 0 auto;background-image: url(../images/dp_box6_round_bg.png) !important;background-repeat: no-repeat !important;background-size: 21px 21px !important;background-position: 50% 50% !important;}
 .luned li p{color: #5ADBFF;height:0.3rem;line-height:0.3rem;font-size:.28rem;text-align: center;}
 
 #mineBox6{width:50%;height:100%;float:left;}
@@ -20,42 +18,42 @@ background-image:url(../images/dp_box6_round_bg.png);background-repeat:no-repeat
 .fonts p{width:50%;position:absolute;}
 .fonts p:nth-child(1){left:20%;}
 .fonts p:nth-child(2){left:70%;}
-	.right-width0{
-		width: 100%;
-		font-size: 14px;
-		height:35%;
-	}
-		#main{
-			width: 45%;
-			height: 100%;
-			display: inline-block;
-		}
-		#main0{
-			width: 45%;
-			height: 100%;
-			display: inline-block;
-		}
-		.blank1{
-			width: 18px;
-			height: 10px;
-			border-radius: 5px;
-			background: #5942FF;
-		}
-		.blank2{
-			width: 18px;
-			height: 10px;
-			border-radius: 5px;
-			background: #F8E71C;
-		}
-		.content0{
-			display: inline-block;
-			width: 20px;
-		}
-		.fontz{
-			font-size: 14px;
-			color: #5942FF;
-		}
-		.fonth{
-			font-size: 14px;
-			color: #F8E71C;
-		}
+.right-width0{
+	width: 100%;
+	font-size: 14px;
+	height:35%;
+}
+#main{
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+}
+#main0{
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+}
+.blank1{
+	width: 18px;
+	height: 10px;
+	border-radius: 5px;
+	background: #5942FF;
+}
+.blank2{
+	width: 18px;
+	height: 10px;
+	border-radius: 5px;
+	background: #F8E71C;
+}
+.content0{
+	display: inline-block;
+	width: 20px;
+}
+.fontz{
+	font-size: 14px;
+	color: #5942FF;
+}
+.fonth{
+	font-size: 14px;
+	color: #F8E71C;
+}
