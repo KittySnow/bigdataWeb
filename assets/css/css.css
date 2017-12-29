@@ -40,7 +40,7 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 
 
 
-.dp-box3{margin-bottom: .45rem;}
+.dp-box3{margin-bottom: .45rem;height:36%}
 .dp-box3-title{height: .8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box3_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;}
 .dp-box3-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;}
 
