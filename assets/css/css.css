@@ -140,8 +140,7 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
     position: relative;
     background-image:url(../images/dp_box7_big_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;
 }
-.dp-box7-title{height:.8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box7_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;
-    margin-bottom:.4rem;}
+.dp-box7-title{height:.8rem;text-align: center;font-size: .36rem;background-image:url(../images/dp_box7_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;  margin-bottom:.4rem;}
 .dp-box7-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;}
 
 
