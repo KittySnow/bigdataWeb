@@ -93,6 +93,6 @@ $(document).ready(function(){
 
 
 
-
+    setTimeout(function(){demo40.update(999)},2000)
 
 });
