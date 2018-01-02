@@ -21,8 +21,8 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-box1 .center-bg h3{font-size: .7rem;text-align: center;color: #d1f5ff;font-family: DINAlternate-Bold Arail;text-align:center;color: #fff;font-weight: 500;letter-spacing: -1px;margin-bottom: .1rem;}
 .dp-box1 .center-bg p{font-size: .32rem;text-align:center;color:#5adbff;letter-spacing: 0;padding-bottom: .25rem;}
 .dp-box2{height: 25.7%;}
-.dp-box2-title{height: 4.8%;text-align: center;font-size: .36rem;background-image:url(../images/dp_box2_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;display: table;width: 100%;}
-.dp-box2-title span{font-size: .36rem;color:#5adbff;display: table-cell;vertical-align: middle;position: relative;top: -.05rem;}
+.dp-box2-title{height: 4.8%;text-align: center;font-size:.32rem;background-image:url(../images/dp_box2_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;display: table;width: 100%;}
+.dp-box2-title span{font-size: .36rem;color:#5adbff;display: table-cell;vertical-align: middle;position: relative;top: -.05rem;font-weight:600}
 .dp-box2-table{height: 1.1rem;width: 100%;background-image:url(../images/tp_box2_title_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
 .dp-box2-table td{font-size: .32rem;text-align:center;color:#5adbff;margin-top: .2rem;font-family: microsoft yahei;}
 .dp-box2-table-end{height: .11rem;width: 100%;background-image:url(../images/tp_box2_end_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position: 50% 0;}
@@ -40,7 +40,7 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-box2-nocontent{height: 3rem;background-image:url(../images/dp_box2_no.png);background-repeat:no-repeat;background-position: 50% 29%;background-size: 12.5% auto;text-align: center;}
 .dp-box2-nocontent span{font-size: 0.28rem;text-align:center;color:#5adbff;margin-top: .2rem;line-height: 4.5rem;}
 .dp-box3{height: 21.7%;}
-.dp-box3-title{height: 4.8%;text-align: center;font-size: .36rem;background-image:url(../images/dp_box3_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;display: table;width: 100%;}
+.dp-box3-title{height: 4.8%;text-align: center;font-size: .32rem;font-weight:600;background-image:url(../images/dp_box3_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;display: table;width: 100%;}
 .dp-box3-title span{font-size: .36rem;color:#5adbff;vertical-align: middle;display: table-cell;position: relative;top: -0.05rem;}
 .dp-box4{height: 75%;width: 100%;background-image:url(../images/dp_box4_big_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;position: relative;}
 .box4-right-box{position: absolute;right: 0;width: 29%;height: 19%;background-image:url(../images/dp_box4_right_box_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
@@ -81,7 +81,7 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 .dp-box6-info-title{position: absolute;top: 6%;right: 2%;color:#5adbff;font-size: 0.32rem;font-weight:800;}
 .dp-box6-info-title span{line-height:1rem;vertical-align: top;margin-right: .1rem;}
 .dp-box7-wrapper{height: 56%;width: 100%;bottom: 0;position: relative;background-image:url(../images/dp_box7_big_bg.png);background-repeat:no-repeat;background-size:100% 100%;background-position:50% 50%;}
-.dp-box7-title{height: 4%;text-align: center;font-size: .36rem;background-image:url(../images/dp_box7_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;display: table;width: 100%;}
+.dp-box7-title{height:4.8%;text-align: center;font-size: .32rem;font-weight:600;background-image:url(../images/dp_box7_title.png);background-repeat:no-repeat;background-size:contain;background-position:50% 50%;display: table;width: 100%;}
 .dp-box7-title span{font-size: .36rem;color:#5adbff;line-height: .7rem;display: table-cell;vertical-align: middle;position: relative;top: -.05rem;}
 .dp-box7-items{font-size: 0;padding-top: .4rem;padding-bottom:.4rem;}
 .dp-box7-items .dp-box7-items-box{width: 50%;display: inline-block;text-align: center;}
@@ -95,8 +95,7 @@ body{background-image:url(../images/bg.png);background-repeat:no-repeat;backgrou
 #mineBox{width:50%;height:30%;float:left;}
 #mineBoxed{width:50%;height:30%;float:left;}
 .ht1{height: 1%}
-.ht175{height: 1.75%}
 .ht2{height: 2%}
 .ht3{height: 3%}
 .ht4{height: 4%}
-.ht35{height: 3.5%}
+.ht25{height: 2.5%}
