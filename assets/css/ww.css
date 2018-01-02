@@ -17,7 +17,7 @@
 .fonts p:nth-child(2){left:70%;}
 .right-width0{
 	width: 100%;
-	font-size: 14px;
+	font-size: .28rem;
 	height:35%;
 }
 #main{
@@ -32,38 +32,39 @@
 }
 .blank1{
 	background: #5942FF;
-	width: 16px;
-	height: 10px;
+	width: .32rem;
+	height: .2rem;
 	border-radius: 5px;
-	margin: 0 auto 5px;
+	margin: 0 auto .1rem;
 }
 .blank2{
-	width: 16px;
-	height: 10px;
+	width: .32rem;
+	height: .2rem;
 	border-radius: 5px;
 	background: #F8E71C;
-	margin: 0 auto 3px;
+	margin: 0 auto .1rem;
 }
 .content0{
 	display: inline-block;
 	width: 0.2rem;
 	text-align: center;
-	vertical-align: 0.7rem;
+	vertical-align: top;
+	padding-top: .3rem;
 }
 .fontz{
-	width: 16px;
+	width: .32rem;
 	text-align: center;
-	font-size: 14px;
+	font-size: .28rem;
 	color: #5942FF;
 	display: block;
 	margin-bottom: .2rem;
-	line-height: 15px;
+	line-height: .3rem;
 }
 .fonth{
 	display: block;
-	width: 16px;
-	font-size: 14px;
-	line-height: 15px;
+	width: .32rem;
+	font-size: .28rem;
+	line-height: .3rem;
 	color: #F8E71C;
 	text-align: center;
 }
