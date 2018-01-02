@@ -1,6 +1,6 @@
-.setSa{height:68%;position:relative;}
-#mineBox{width:50%;height:100%;float:left;margin-top:-1rem;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 80% 50% !important;}
-#mineBoxed{width:50%;height:100%;float:left;margin-top:-1rem;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 20% 50% !important;}
+.setSa{height: 100%;position:relative;}
+#mineBox{width:50%;height:100%;float:left;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 80% 50% !important;}
+#mineBoxed{width:50%;height:100%;float:left;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 20% 50% !important;}
 
 
 .luned{font-size:0;list-style: none;height:90%;}
@@ -72,29 +72,35 @@
 
 .left-dispose{
 	width: 100%;
-	height: 34.5%;
+	height:19.2%;
 	font-size:0.12rem;
 	background:url(../images/yujingbg.png) no-repeat;
 	background-size: 100% 100%;
 }
 .width33,.width50{
-	width: 32%;
+	width: 33%;
 	height: 50%;
 	display: inline-block;
+	vertical-align: top;
+}
+.dp-box3-dec{
+	padding-right: .5rem;
+	text-align: right;
 }
 .width33-title{
 	height: 0.4rem;
-	line-height: 0.4rem;
-	background:url(../images/Rectangle.png) no-repeat center center;
+	line-height: 0.45rem;
+	background: url(../images/Rectangle.png) no-repeat center 0;
 	text-align: center;
 	color: #57D5F9;
+	font-size: .28rem;
+	background-size: 50% 100%;
 }
 .icon0{
 	width: 0.8rem;
 	height: 0.8rem;
-	display: inline-block;
-	margin: 0.15rem 0.1rem 0 0.4rem;
-
+	float: left;
+	margin: 0.2rem 0.3rem 0.2rem 0.4rem;
 }
 .icon0-1{
 	background:url(../images/yujing.png) no-repeat center center;
@@ -118,20 +124,20 @@
 	background-size:100% 100%;
 }
 .nub0{
-	font-size: 0.7rem;
-	font-weight: 600;
+	font-size: .8rem;
+	font-weight: 400;
 	color: #fff;
-	display: inline-block;
-	position: relative;
-	top: -0.1rem;
-	left:0.5rem;
+	display: inline;
+	margin-right: .15rem;
+	line-height: 1.2rem;
+	font-family: DINAlternate-Bold;
+	letter-spacing: -2px;
 }
 .ci{
 	color: #57D5F9;
-	display: inline-block;
-	position: relative;
-	top: -0.05rem;
-	left: 0.6rem;
+	display: inline;
+	font-size: .28rem;
+	line-height: 1rem;
 }
 .blank0{
 	width: 16%;
