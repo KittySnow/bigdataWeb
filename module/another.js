@@ -17,7 +17,6 @@ for (let i = 0; i < valueJson.length; i++) {
 		name: valueJson[i].name + ':' + valueJson[i].value
 	});
 }
-console.log(legendValue);
 // 指定图表的配置项和数据
 option = {
 	tooltip: {
@@ -28,7 +27,7 @@ option = {
 		orient: 'vertical',
 		left: 'center',
 		bottom: 0,
-		data: [{name:"查询次数:1536",textStyle:{fontSize:12,color:"#396eff"}}, {name:"发现问题数:1365",textStyle:{fontSize:12,color:"#5adbff"}}],
+		data: [{name:"查询次数:1536",textStyle:{fontSize:12*fontSize,color:"#396eff"}}, {name:"发现问题数:1365",textStyle:{fontSize:12*fontSize,color:"#5adbff"}}],
 	},
 	series: [{
 		name: '访问来源',
@@ -60,7 +59,7 @@ option = {
 		name: '访问来源',
 		type: 'pie',
 		selectedMode: 'single',
-		radius: [0, '30%'],
+		radius: ['0', '30%'],
 		center: ['50%', '35%'],
 		label: {
 			normal: {

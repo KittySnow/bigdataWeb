@@ -5,7 +5,7 @@ var option = {
     title: {
         text: '各区域属地巡查询进度',
         textStyle: {//主标题文本样式{"fontSize": 18,"fontWeight": "bolder","color": "#333"}
-            fontSize: 14,
+            fontSize: 14*fontSize,
             fontStyle: 'normal',
             fontWeight: 'normal',
             color:"#5adbff"
@@ -15,8 +15,8 @@ var option = {
     legend: {
         data:['已查询','待查询'],
         textStyle:{
-            fontSize: 12,
-            paddingTop:12,
+            fontSize: 12*fontSize,
+            paddingTop:12*fontSize,
             color: '#59d9fc'
         },
         left:'58%',
@@ -25,15 +25,15 @@ var option = {
     grid:{
         left:"0%",
         right:"0%",
-        top:35,
-        bottom:28
+        top:35*fontSize,
+        bottom:28*fontSize
     },
     xAxis: {
         data: ["鸿山","新安","梅村","三庄","江溪","收房"],
         axisLabel: {
             textStyle: {
                 color: '#4ec0e5', //刻度颜色
-                fontSize: 14  //刻度大小
+                fontSize: 14*fontSize  //刻度大小
             }
         },
         axisLine: {

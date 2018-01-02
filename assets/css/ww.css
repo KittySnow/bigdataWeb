@@ -1,8 +1,21 @@
 .setSa{height: 100%;position:relative;}
-#mineBox{width:50%;height:100%;float:left;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 80% 50% !important;}
-#mineBoxed{width:50%;height:100%;float:left;background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size: 65%!important;background-position: 20% 50% !important;}
+#mineBox{width:50%;height:100%;float:left;z-index: 10;}
+#mineBoxed{position:relative;width:50%;height:100%;float:left;z-index: 10;}
 
-
+#mineBox-s{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	width: 120px;
+	background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size:auto 100%!important;background-position: 50% 0 !important;
+}
+#mineBoxed-s{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	width: 120px;
+	background-image: url(../images/groupCircle.png) !important;background-repeat: no-repeat !important;background-size:auto 100%!important;background-position: 50% 0 !important;
+}
 .luned{font-size:0;list-style: none;height:90%;}
 .luned li{font-size:0;display:inline-block;width:50%;height:100%;}
 #mineBox2,#mineBoxed2{height:90%;width: 96%;margin: 0 auto;background-image: url(../images/dp_box6_round_bg.png) !important;background-repeat: no-repeat !important;background-size: .42rem .42rem !important;background-position: 50% 50% !important;}
@@ -143,6 +156,4 @@
 	width: 16%;
 	display: inline-block;
 }
-.wzFonts{position:absolute;width:6%;height:0.7rem;font-size:0.3rem;letter-spacing:1px;color:#5ADBFF;left:27.4%;top:28.5%;}
-.wzFonts1{position:absolute;width:6%;height:0.7rem;font-size:0.3rem;letter-spacing:1px;color:#5ADBFF;left:67%;top:28.5%;}
 
