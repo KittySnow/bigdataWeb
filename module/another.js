@@ -10,7 +10,7 @@ var valueJson = [{
 }];
 var legendValue = [];
 var valuedata = [];
-for (let i = 0; i < valueJson.length; i++) {
+for (var i = 0; i < valueJson.length; i++) {
 	legendValue.push(valueJson[i].name + ':' + valueJson[i].value);
 	valuedata.push({
 		value: valueJson[i].value,
@@ -96,3 +96,5 @@ myChart1.dispatchAction({
 	seriesIndex: 0,
 	dataIndex: 0
 });
+window.onresize = myChart.resize;
+window.onresize = myChart1.resize;

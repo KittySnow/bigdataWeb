@@ -111,3 +111,4 @@ var option = {
     }]
 };
 myChart.setOption(option);
+window.onresize = myChart.resize;

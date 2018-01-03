@@ -116,14 +116,19 @@ var option4 = {
 myCharts5.setOption(option4);
 window.onresize = myCharts5.resize;
 
-$(function(){
+function roundBg(){
 	var widthS = $(window).width()*0.98*0.32/2;
 	var heightT = $("#mineBox-s").height();	
 	var radius = heightT;
 	$('#mineBox-s').css({'left':widthS*0.58-radius/2+'px',width:heightT});
-	
 	$('#mineBoxed-s').css({'left':widthS*0.39-radius/2+widthS+'px',width:heightT});
-	
+}
+
+$(function(){
+	roundBg();
+	$(window).resize(function(){
+		roundBg();
+	});
 })
 
 

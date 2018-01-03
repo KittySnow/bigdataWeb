@@ -60,4 +60,5 @@ var option3={
         return idx * 20;
     }*/
 };
-myCharts3.setOption(option3)
+myCharts3.setOption(option3);
+window.onresize = myCharts3.resize;
